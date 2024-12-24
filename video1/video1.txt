@@ -1,0 +1,20 @@
+video 1 
+
+is basically installation of vs code 
+video1.txt creation and writing text and checking weather it is being reflected in the source folder when typed in vs code and vice versa (sync)
+
+->tips on auto save 
+->contol zoom on keypad by enabling mouse-wheel-zoom option in settings(control+,)
+some basic extention like live preview/live server
+
+
+client ----- browser ----- server
+
+client req to browser
+browser req to server 
+server response to browser 
+browser parse the data to look like webpage to the client 
+
+usage of video and img tags 
+-> run the index.html to check the output
+
