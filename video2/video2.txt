@@ -1,4 +1,4 @@
-bvideo 2
+video 2
 
 here, first we configure GIT
 we create a respository using github desktop and keep all the files into that folder and publish it 
