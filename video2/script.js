@@ -1,0 +1,1 @@
+alert("aatma trupt ho gayi!");

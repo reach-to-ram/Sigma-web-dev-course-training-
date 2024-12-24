@@ -1,0 +1,19 @@
+bvideo 2
+
+here, first we configure GIT
+we create a respository using github desktop and keep all the files into that folder and publish it 
+we can always check the published files/images/videos etc in github.com/reach-to-ram link!
+
+some useful extentions - vscode icons
+themes -jellyfish
+live preview - by microsoft, live server also works
+
+linking html-css-javascript
+
+=>to link external css to html file ->use link:css emmet below title in head. 
+emmet extens to - <link rel="stylesheet" href="style.css">
+=>to link javascript to html file use script:src emmet above closing body tag(</body>)
+emmet extends to - <script src="script.js"></script>  
+
+
+
