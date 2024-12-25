@@ -1,0 +1,32 @@
+titles help in seo(search engine optimization) and it is a good practise to use them
+titles always change when we change a page in real time!
+
+html tags are enerally two types 
+-> self closing ones ex. <meta>, <img> etc
+-> dual tags ex.<html></html>, <head></head>, <body></body> etc
+
+meta:desc (emmet) <meta name="description" content=""> also help in seo !
+-> meta discrption is the one which google shows when ever we search for any results 
+
+<html lang="en"> 
+->here lang is an atribute and en is value(key value pair)
+<meta name="description" content="This page is about the seo and about video3">
+->here meta is a self closing tag
+->name and content are atributes
+->description and This page is about the seo and about video3 are its values 
+
+hovering on the tags or atributes gives basic informations and gives a link to mdn docs for more detailed understanding 
+
+**
+how to Mobile Preview:
+step1: open terminal and type ip config 
+step2: copy the ipv4 address
+step3: open vs code settings(control + ,) and type live preview in search bar
+step4: paste the ipv4 address in Live Preview: Host IP 
+step5: restart vs code
+step6: always make sure to keep Network profile type to private network in wifi settings for this to work
+Note: The laptop and mobile should be sharing the same wifi
+**step7: Only use the preview to run this only then we get this http://192.168.209.81:3000/index.html
+type it in your mobiles chrome and VOLAAA!!!!
+
+Honorable mention from harry bhai: The difference between a junior and senior developer is that he knows from which stack overflow problem to copy and paste it here in our code and modify accordingly!
