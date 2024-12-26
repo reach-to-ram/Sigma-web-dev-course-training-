@@ -1,0 +1,17 @@
+Tips for vs code:
+->alt + shift + down-arrow - to replicate more of it 
+->press alt and select curser on multiple places to multi select the curser and use it once to change many
+->lorem3 - for 3 lorem words (Lorem, ipsum dolor.)
+  lorem20 - for 20 lorem words (Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, consequatur aperiam culpa ex fugit corporis tempora illo! Labore, placeat dolorum?)
+->control + tab - to change between files in vs code
+->use end in keyboard to go to last line ie..end of that line instantly!
+
+h1 to h6 tags for headings 
+anchor tag a emmet is <a href=""></a> , here a is anchor tag and href is hyper reference 
+->when onpress google it always opens up in the existing tab
+->to open up in the new tab we use target attribute and its value as _blank in the anchor tag (target="_blank") ie.. <a target="_blank" href="https://google.com">google</a>
+->note:once visted google the color changes
+
+ 
+
+
