@@ -1,0 +1,24 @@
+This video mainly explains about seo(Search engine optimization)
+web.dev - a website that explains about the seo and other stuff
+google uses core web vitals to rank two websites 
+1.CLS - cummulative layout shift 
+  some times when we want click no but it clicks yes become an add popped up and i mistakenly pressed yes instead of no this is called cummulative layout shift 
+  (layout should not shift)
+
+2.LCP - Largest Contentful paint
+  how quick the biggest element is loading 
+  ideal is 2.5sec
+
+3.FID - First Input Delay
+  FID should happen below 100milliseconds
+
+  Note:Core web vitals update!
+
+Lighthouse:
+There is something called as Lighthouse inside the inspect page
+here it generates report for both mobile and desktop for the given site
+
+Meta tags help us in seo optimization 
+
+Mobile Preview:
+In inspect we also have mobile preview option where we can see the webiste in different mobiles and its responsiveness!!
