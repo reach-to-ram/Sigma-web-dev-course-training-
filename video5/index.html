@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Image tag:</h1>
+    <img height="200" src="Screenshot 2024-12-26 063832.png" alt="this is a train image">
+    <h3>This screen shot is used using built in snippet tool (windows+shift+s)</h3>
+    <p>for html width and height there is no need to type px,% etc..
+       height="500" and width="300" works, unlike CSS
+    </p>
+    <br>
+
+    <h1>HTML:Tables</h1>
+    <table>
+    <caption>Employee Details</caption>
+  <tr>
+    <th>Employee Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Harry</td>
+    <td>28</td>
+  </tr>
+  <tr>
+    <td>Ram</td>
+    <td>24</td>
+  </tr>
+</table>
+<br>
+<br>
+<table>
+    <caption>col span(bhanu has taken 2 cells)</caption>
+    <tr>
+        <th>Emplyee Name</th>
+        <th>Emplyee Designation</th>
+        <th>Emplyee Service</th>
+    </tr>
+    <tr>
+        <td>Roja</td>
+        <td>Accountant</td>
+        <td>3 years</td>
+    </tr>
+    <tr>
+        <td style="border: 2px solid black;" colspan="2">Bhanu</td>
+        <td>2 years</td>
+    </tr>
+    <tr>
+        <td>Ashok</td>
+        <td>Tester</td>
+        <td>2 years</td>
+    </tr>
+    <tr>
+        <td>Ramesh</td>
+        <td>Accountant</td>
+        <td>7 years</td>
+    </tr>
+</table>
+<br>
+<br>
+<table>
+    <caption>row span(bhanu as both dev and tester)</caption>
+    <tr>
+        <th>Emplyee Name</th>
+        <th>Emplyee Designation</th>
+        <th>Emplyee Service</th>
+    </tr>
+    <tr>
+        <td>Roja</td>
+        <td>Accountant</td>
+        <td>3 years</td>
+    </tr>
+    <tr>
+        <td style="border: 2px solid black;" rowspan="2">Bhanu</td>
+        <td>Developer</td>
+        <td>2 years</td>
+    </tr>
+    <tr>
+        <td>Tester</td>
+        <td>2 years</td>
+    </tr>
+    <tr>
+        <td>Ramesh</td>
+        <td>Accountant</td>
+        <td>7 years</td>
+    </tr>
+</table>
+<br>
+<h1>HTML:Lists(un-ordered, ordered, definition lists)</h1>
+<h2>un-ordered list and its types:</h2>
+
+<ul>
+    <caption>type:disc - default bullet style</caption>
+    <li>ram</li>
+    <li>raheem</li>
+    <li>roman</li>
+</ul>
+<ul type="square">
+    <caption>type:square</caption>
+    <li>ram</li>
+    <li>raheem</li>
+    <li>roman</li>
+</ul>
+<ul type="circle">
+    <caption>type:circle</caption>
+    <li>ram</li>
+    <li>raheem</li>
+    <li>roman</li>
+</ul>
+
+<h2>Ordered List and its types</h2>
+<ol>
+    <caption>type:Default and 1</caption>
+    <li>Jessy</li>
+    <li>shamili</li>
+    <li>radha</li>
+</ol>
+<ol type="I">
+    <caption>type:I</caption>
+    <li>Jessy</li>
+    <li>shamili</li>
+    <li>radha</li>
+</ol>
+<ol type="i">
+    <caption>type:i</caption>
+    <li>Jessy</li>
+    <li>shamili</li>
+    <li>radha</li>
+</ol>
+<ol type="A" start="3" >
+    <caption>type:A(start is 3)</caption>
+    <li>Jessy</li>
+    <li>shamili</li>
+    <li>radha</li>
+</ol>
+<ol type="a">
+    <caption>type:a</caption>
+    <li>Jessy</li>
+    <li>shamili</li>
+    <li>radha</li>
+</ol>
+<ol start="3">
+    <caption>start attribute is 3 </caption>
+    <li>ram</li>
+    <li>radha</li>
+    <li>raheem</li>
+</ol>
+<h2>Definition Lists</h2>
+<h3>dl-definition list, dt-definition term, dd-definition description</h3>
+<dl>
+    <dt>About HTML - (dt)</dt>
+    <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aspernatur blanditiis id molestiae accusamus reiciendis eum natus officiis distinctio ratione.(dd)</dd>
+
+    <dt>About CSS</dt>
+    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolores minima exercitationem rem, similique assumenda tenetur autem beatae soluta fugit!</dd>
+
+    <dt>About Javascript</dt>
+    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestias quo vitae quis maiores aperiam dolorem molestiae fuga facilis deserunt.</dd>
+
+</dl>
+</body>
+</html>

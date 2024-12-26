@@ -1,0 +1,118 @@
+Here we talk about img tag, HTML:Tables, list tags
+
+windows + shift + s (short cut for using builtin snippet tool to use on any website and saving them locally as screenshots)
+
+**control + space for suggestions (for emmets, for suggestions on existing images etc)
+
+img emmet as <img src="" alt="">
+->here img is the tag
+->src ie..souce and alt ie..alternative both are attributes 
+-><img src="Screenshot 2024-12-26 063832.png" alt="this is a train image">
+   if we add any image previously to the folder then we can use control + space to use it easily 
+->here we can define height and width as attributes to the image tag but note:it is not req to use px unlike css and directly state 300, 400 etc
+->alt is used when for any reason the image is not loaded and this text will be shown (good practise)
+
+HTML Tables:(refer https://codewithharry/tutorial/html-tables) 
+table tag <table></table>
+tr - table row
+th - table header (usually we write this only once to define all the headings of the table)
+td - table data
+caption - we can define caption here
+br - break, gives space between lines, content, tables, lists etc
+colspan attribute - <td colspan="2"></td>, this helps in combining two columns in table
+rowspan attribute - <td rowspan="2"></td>, this helps in combining two rows in table
+(represed these two in the index.html using css border property)
+
+table example:
+<table>
+ <caption>Employee Details</caption>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Harry</td>
+    <td>100</td>
+  </tr>
+</table>
+
+rowspan example:
+<table>
+    <caption>row span(bhanu as both dev and tester)</caption>
+    <tr>
+        <th>Emplyee Name</th>
+        <th>Emplyee Designation</th>
+        <th>Emplyee Service</th>
+    </tr>
+    <tr>
+        <td>Roja</td>
+        <td>Accountant</td>
+        <td>3 years</td>
+    </tr>
+    <tr>
+        <td style="border: 2px solid black;" rowspan="2">Bhanu</td>
+        <td>Developer</td>
+        <td>2 years</td>
+    </tr>
+    <tr>
+        <td>Tester</td>
+        <td>2 years</td>
+    </tr>
+    <tr>
+        <td>Ramesh</td>
+        <td>Accountant</td>
+        <td>7 years</td>
+    </tr>
+</table>
+<br>
+
+
+Lists:
+There are majorly 3 types of lists
+->ul - un-ordered lists
+->ol - ordered lists
+->dl - definition lists
+
+ul types:
+->disc default bullet type
+->square type
+->circle type
+
+ol types:
+->1 default type
+->I type
+->i type
+->A type
+->a type
+Note: start attribute 
+ex. <ol type="1" start="3">
+        <li>ram</li>
+        <li>ajay</li>
+        <li>lasya</li>
+    </ol>
+    here, type is 1 so it starts as 1.ram, 2.ajay, 3.lasya
+    but as start is 3 it starts as  3.ram, 4.ajay, 5.lasya
+
+This also works for <ol type="A" start="3">  
+o/p as C.ram, D.ajay, E.lasya
+
+Definition lists:
+sample:
+<h1>HTML Definition List</h1>
+  <dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language: The standard language for creating web pages.</dd>
+
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets: A stylesheet language used for describing the look and formatting of a document written in HTML.</dd>
+
+    <dt>JavaScript</dt>
+    <dd>A programming language commonly used in web development to add interactive features.</dd>
+  </dl>
+  
+  here, dl - definition lists
+        dt - definition term
+        dd - definition description
+
+These are the 3 list types
+note:refer index.html for clear understanding
