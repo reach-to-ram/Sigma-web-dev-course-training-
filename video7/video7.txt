@@ -1,0 +1,23 @@
+Form tag, lable tag, input tag:
+
+if you write for in the lable then compulosry in the input id should be same
+ie..value of "for" in label and value of "id" in input should always be same!
+
+instead of using br tags use div tags to wrap
+
+radio button practices:
+<div>
+        <input type="radio" name="gender" id="male">  
+        <label for="male">male</label>  
+        <input type="radio" name="gender" id="female">
+        <label for="female">female</label>
+</div>
+here, id value in input and for value in label should be same
+->value of name should always be same as this helps on click text to work! ie..on click male or female lables the dot happens(radio) ,if the name is not same then onclick label will not work and also only one dot appering on either label on click will also not work!
+ie..having the same name value is important for radio to work
+
+autofocus is used inside the input tag and this helps to keep the curser on that specific input even after a reload!
+
+required is also used inside the inout tag, as name specifies filling it up is mandatory
+
+
