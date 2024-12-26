@@ -1,3 +1,5 @@
+In video 4, we created a bookmark project and we can use it realtime to store all my bookmarks(available on desktop)
+
 Tips for vs code:
 ->alt + shift + down-arrow - to replicate more of it 
 ->press alt and select curser on multiple places to multi select the curser and use it once to change many
@@ -11,6 +13,7 @@ anchor tag a emmet is <a href=""></a> , here a is anchor tag and href is hyper r
 ->when onpress google it always opens up in the existing tab
 ->to open up in the new tab we use target attribute and its value as _blank in the anchor tag (target="_blank") ie.. <a target="_blank" href="https://google.com">google</a>
 ->note:once visted google the color changes
+
 
  
 
