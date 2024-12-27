@@ -1,0 +1,24 @@
+id and classes
+id and classes are attributes of an element
+
+id is a unique identifier of an element, there cannot be two id's with the same number just like how there cannot be a person with two aadhar numbers 
+
+there can be multiple classes to elements and multiple elements can have same class name
+ex. <span class="red bg-yellow">this is an inline element</span>
+ie..here red is a class name and bg-yellow is another class name and both are seperated by a space
+
+so classes can be same for different elements but id'd should always be unique
+we use id's with # and classes with . for selecting CSS
+ex.how to target id and class for CSS
+
+#id{
+
+}
+.class{
+
+}
+id and classes are called css selectors..
+Note: we can use #id in the webpages and directly go to that page and id content
+ex.https://en.wikipedia.org/wiki/Ashoka#Viceroy_of_Ujjain
+#Viceroy_of_Ujjain is the heading id and we always open on new tab it'll directly scroll to that heading!
+
