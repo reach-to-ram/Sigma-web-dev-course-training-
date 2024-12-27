@@ -1,0 +1,57 @@
+Semantics:
+Semantics are used for SEO
+we can write the code using div's but it doesn't help in SEO
+
+we need to have a proper structure when writing code for website creation 
+using header - footer, aside, main, article,section, figure, paragraph etc..
+
+Commonly used semantic tags:
+header: Contains introductory content.
+footer: Holds footer information.
+article: Encapsulates a self-contained composition.
+section: Represents a standalone section.
+aside: Contains content aside from the content it is placed in.
+nav: Holds navigation links.
+
+examples:
+Using the <article> and <section> tags:
+<article>
+    <h2>Article Title</h2>
+    <section>
+      <p>Content here</p>
+    </section>
+</article>
+
+Using the <aside> and <nav> tags:
+<aside>
+    <p>This is an aside content</p>
+  </aside>
+<nav>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+    </ul>
+</nav>
+
+Using the <figure> and <figcaption> tags:
+<figure>
+    <img src="image.jpg" alt="An example image">
+    <figcaption>This is an example image.</figcaption>
+</figure>
+
+Using the <header> tags and <footer> tags:
+<header>
+    <h1>My Website</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<footer>
+    <p>Copyright 2023</p>
+</footer>
