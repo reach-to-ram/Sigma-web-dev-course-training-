@@ -1,0 +1,48 @@
+&lt;!DOCTYPE html&gt;
+    &lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+    &lt;/body&gt;
+    &lt;/html&gt;
+
+step1:we can do this easily by selecting the < or > tag 
+step2:right click and select "change all ocurences" 
+step3:now type &lt; for <-tag and &gt; for >-tag
+Note:According to semantics code should always be written in code tag and code in pre-tag 
+     usage of code in pre-tag helps the code to maintain line by line just like below::
+<pre>
+<code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+body of boiler plate code
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+</pre>
+This is how we can display code in a web page using pre tag and code tag
+
+HTML completed in video13 man!!!! 
+If YOU have followed my txt files till now then congrats..
+
+Schema of code with harry sigma web developement course:
+1-13 - HTML(13)
+14-52 - CSS(39)
+53 - HTML and CSS combined project
+54-82 -JS(29)
+83 -Interview question on JS
+84 - HTML, CSS and JS combined project
+85 - Backend - Node
+105 - React
+121 - Nextjs
+138 - Last video 
