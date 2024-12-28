@@ -1,0 +1,10 @@
+CSS(Cascading style sheet)
+example:
+    <style>
+        div{
+            color: crimson;
+        }
+    </style>
+    here, div is the selector and color: crimson; is the declaration
+    declaration can be further classified into 
+    ->key value pairs == property value pairs (color:crimson;)
