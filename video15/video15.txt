@@ -1,0 +1,19 @@
+The three ways to add CSS 
+1.Inline CSS - not much recommended
+2.Internal CSS - for smaller projected ok but not recommended for heavy production grade projects
+3.External CSS - recommended for serious and production grade projects
+
+Drawbacks of using Inline CSS:
+using inline css and targeting each element takes a lot of time and also to change a h1 or a div we need to find in hundreds of lines of code and then change it, inefficient and time taking 
+
+Drawbacks of using Internal CSS:
+Here we can target an element and make changes to all the elements at once and a major drawback is the lines of css increases the html page size also increases which is not recommended!
+
+Recommended is using External CSS
+
+Internal CSS: by using style tag in the element itself
+Internal CSS: by using style tag in the head
+External CSS: by using style in external .css file and linking it to the html in head by link:CSS emmet
+
+
+
