@@ -1,0 +1,47 @@
+CSS Selectors:
+
+class - (.)
+id - (#)
+child - parent (>) child
+descendent - parent( )descendent
+universal - (*)
+
+pseudo selectors(mainly used for anchor tags a tags(<a href="URL"></a>))
+a:visted - visited links
+a:link - non-visited links 
+a:active - onclick/onpress
+a:hover - onhover
+p:firstchild - if p is the first child of its parents apply these property(rarely used)
+
+example:
+<style>
+    .class{
+        color: brown;
+    }
+    #id{
+        color: rgb(191, 6, 224);
+    }
+    div > p{
+        color: rgb(123, 89, 3);
+    }
+    div article{
+        color: crimson;
+    }
+    /* *{
+        margin: 0;
+        padding: 0;
+    } */
+    a:visited{
+        color:darkviolet;
+    } 
+    a:link{
+        color: darkorange;
+    }
+    a:active{
+        color: blue;
+    }
+    a:hover{
+        color:yellowgreen;
+    }
+
+</style>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS(selectors)</title>
+    <style>
+        .class{
+            color: brown;
+        }
+        #id{
+            color: rgb(191, 6, 224);
+        }
+        div > p{
+            color: rgb(123, 89, 3);
+        }
+        div article{
+            color: crimson;
+        }
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        a:visited{
+            color:darkviolet;
+        } 
+        a:link{
+            color: darkorange;
+        }
+        a:active{
+            color: blue;
+        }
+        a:hover{
+            color:yellowgreen;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>CSS Selectors and its types:-</h1>
+    <h2>class selector uses . to slect the elements</h2>
+    <div class="class">
+        Hey this is a div
+    </div>
+    This is colored brown using class selector
+
+    <h2>id selector uses # to slect the elements</h2>
+    <div id="id">
+        this is div 2
+    </div>
+    this is colored pink using #(id) selector using a unique id
+
+    <h2>child selector uses > symbol</h2>
+    <div>
+        <p>This is a p tag sentence inside a div, if we want to target this p inside div then we can use div > p to target p</p>
+    </div>
+    this is target using div > p child selector but the drawback is it goes upto only one child 
+    if we want to target 2 layers inside then use div p(div space p)
+    ex. 
+
+    <h2>descendent selector div(space)article</h2>
+    <div>
+        <p>
+            <article>
+                this is inside div and p, two layers..to target this we can use div article(div space article)
+            </article>
+        </p>
+    </div>
+<pre>
+<code>
+&lt;div&gt;
+&lt;p&gt;
+&lt;article&gt;
+this is inside div and p, two layers..to target this we can use div article(div space article)
+&lt;/article&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+</code>
+</pre>
+Note:to target a child we use parent>child(>selector) and to target Descendents we use space parent descendent(parent(space)descendent)
+
+<h2>universal selector uses * to target</h2>
+*{<br>
+    margin:0;<br>
+    padding:0;<br>
+}<br>
+This helps all of the HTML page to have 0 margin and 0 padding<br>
+basically * effects all of the html page
+
+<h2>pseudo selectors are mainly used for anchor tags ie..a tag(&lt;a href="URL"&gt;&lt;/a&gt;)</h2>
+<h4>a:visited property is used(pseudo selector)</h4>
+<a href="https://google.com">go to google</a><br>
+go to google is in vioet because by using a:visted property we changed all the visited links to violet colored
+<br>
+<h4>a:link property is used(pseudo selector)</h4>
+<a href="https://wikipedia">wikipedia</a> <br>
+<a href="https://firstpost.com">firstpost</a> <br>
+these both are in orange because they are not visited and the property which we used is a:link
+
+<h2>active and hover pseudo selectors</h2>
+<h4>a:active property is used for active pseudo selector</h4>
+<a href="https://asurascans">asurascans</a><br>
+here onclick this link the color changes to blue, this is done using a:active property
+
+<h4>a:hover property is used for hover pseudo selector</h4>
+<a href="https://studyiq.com">studyiq.com</a> <br>
+now, hover on any link we can see the color is changed into green!
+
+<h2>p:firstchild - if p is the first child of its parents apply these property</h2>
+so all the p's in the file that are fist child will be impacted(rare use)
+</body>
+</html>
