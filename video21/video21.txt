@@ -1,0 +1,51 @@
+CSS Specificity and Cascade Algorithm:
+
+there are two styles one says bg color:red and another bg color green
+should bg be red or green?
+ans.css specificity
+
+<style>
+        h1{
+            color: aqua;
+        }
+       .yellow{
+        color: yellow;
+       } 
+       .cred{
+        color: red;
+       }
+       .cpurple{
+        color:purple
+       }
+    </style>
+here, since purple was the last declared one it will be taken into account and h1 will be colored purple
+since here we are using classes, the last declared one will have the priority!
+Note:even though we have element selctor used above for color aqua it is not applied because from the specificity caliculation values element selector point is 0 and class selector is 10
+hence, class will get priority and in all the classes the last one will get more priority!\
+
+Attribute selector for <h1 class="yellow cred cpurple" data-x="a">Thi is a h1 inside a div</h1>
+syntax and example:
+[data-x=a]{
+        background-color: red;
+       }
+
+
+
+So, the order of specificity is:
+Inline Style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector
+
+Specificity Calculation:
+To calculate specificity, assign a value to each part of the selector:
+Universal Selector: 0
+Element selectors and pseudo-elements: 1
+Class selectors, attribute selectors, and pseudo-classes: 10
+ID selectors: 100
+Inline styles: 1000
+Note:As we know classes and attributes have same specificity value 10 which ever is declared last in the style, that will be used!
+
+!important: irrespective of specificity if !important is written beside a css property it will be applied!
+this also overpowers in-line css
+
+User agent style sheets - is the css written by the browser we can find it by inspect element
+
+h1.yellow = speciificity is 1+10 = 11, now yellow will be applied
