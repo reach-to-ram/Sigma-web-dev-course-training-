@@ -1,0 +1,20 @@
+CSS Boxmodel:
+Margin
+Border
+Padding
+Content
+
+height 200px - this height will be the height of the element
+
+total height - element height + top padding height + bottom padding height + top border height + bottom border height + top margin height + bottom margin height
+
+boxsizing:borderbox - this 200px will be applied to (content + padding + border = 200)
+
+Margin collapse:
+let us take an example, there are two div's 
+div1 has 35px as margin
+div2 has 25px as margin
+Margin collapse says, the higher margin will be applied as margin b/w the two divs
+ie.. 35px will be applied!
+if both divs have 25px the 25px will be applied..
+This is margin collapse

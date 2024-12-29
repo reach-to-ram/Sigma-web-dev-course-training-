@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video18(CSS BOX)</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            background-color: blanchedalmond;
+        }
+        .box1{
+            color: green;
+            border: 2px solid blue;
+            padding: 10px;
+            margin: 10px; 
+            height: 200px; /*here this height is only applied to the content only */
+            box-sizing: border-box;
+        }
+        .box2{
+            color: rgb(170, 10, 210);
+            margin: 30px; /*here margin 30px is applied b/w div1 and div2 as 30px is greater than 10px* - MARGIN COLLAPSE/
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        <p>this is inside div1</p>
+    </div>
+    <div class="box box2">
+        <p>this is inside div2</p>
+    </div>
+    using .class we have defined box as class for both divs but additionally we gave unique classes after box class as box1 and box2 to target individually ie..<br> 
+    &lt;div class box box1&gt; - for first div and <br>
+    &lt;div class box box2&gt; - for secind div
+
+    <h3>margin and padding difference using border</h3>
+    After applying border and bg color to the content then bg color is only applied iside the border but not outside the border <br>
+    space b/w content to border is called padding <br>
+    space b/w border and ouside the border is margin 
+
+    <h3>total height</h3>
+    <p>When ever we give height as 200px to an element like div then that 200px height will only assign to the element's content!
+    The content will be 200px <br>
+    hence when caliculating total height we consider, element height + top padding height + bottom padding height + top border height + bottom border height + top margin height + bottom margin height <br>
+    All of this would make up the total height 
+    </p>
+    
+    <h3>box sizing:border box</h3>
+    <p>for the same height of 200px if we also add box-sizing: border-box; property then the 200px height will be distributed to content,padding and border but not to margin </p>
+    <p>this is important:for this property the height will not be alloted to the margin but only to content,padding and margin</p>
+
+</body>
+</html>
