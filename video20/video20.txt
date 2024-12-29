@@ -1,0 +1,4 @@
+Excersice 2:
+html and css where inside div 5 paragrahs
+1st paragraph should have bg yellow and text color red
+remaining 4 p's should have bg blue and text color white
