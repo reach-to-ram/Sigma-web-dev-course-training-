@@ -1,0 +1,20 @@
+CSS Display:
+
+in html we saw div's are block level elements and span's are in-line elements\\
+for div's to work like spans we can use display property!
+
+display:inline
+using this property we can change the box-level elementsto inline elements but the problem is by give display:inline all the properties that generally apply well to block level wouldn't be that good like padding, margin etc...
+padding: 20px;
+margin: 30px;
+they apply but not propertly, for them to work normal we have to change the property to display:inline-block
+//this works
+
+display:none
+visibility:hidden
+
+display none: this makes whole div to disapper and even the space it took is disappered aswell
+
+visibility:hidden: this makes the div disapper but the space it previously too remains the same
+
+small intro on display:flex and display:grid
