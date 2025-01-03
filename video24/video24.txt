@@ -1,0 +1,23 @@
+CSS Shadow and outline:
+
+Shadow syntax:
+box-shadow: h-offset v-offset blur spread color inset;
+ex. .div-element { box-shadow: 5px 5px 15px 5px #888888; }
+
+Text shadow:
+syntax:
+text-shadow: h-offset v-offset blur color;
+ex..text-element { text-shadow: 2px 2px 4px #888888; }
+
+Note:use inspect element to effective change the properties and paste in the code asper likabilty or requirement
+
+
+Outline:
+outline: 2px solid blue;
+outline-offset: 50px;
+
+outline is not a part of css box model
+it is similar to border in box model but it applies ouside the border
+unlike border we can easily increase or decrease the border by using outline-offset property
+
+note:we can use the border radius property for ouline to make the curvy border
