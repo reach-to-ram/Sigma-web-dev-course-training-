@@ -1,0 +1,39 @@
+CSS sizing units:
+px - pixels
+vw - responsive width
+vh - responsive height
+em - inherits from parent by default parent is 16 if 2em=2*16 
+rem - inherits from root(html) same as em but from root
+min height - min-height: 80vh; //responsive height 
+min width - 
+% - width:50%=>width will be 50% of the parent 
+
+px pixels:
+total px depends on the resolution of the device, 
+as per my checking it works till 1393 pixels with border 2px
+total may be 1400px as per width
+
+for responsiveness we use view-port width and view-port height(vw and vh)
+->using this irrespective of devices the width and height would be same, responsive and the code will not break
+
+boxsizing:border box helps us to distribute the height or with b/w content,padding and border
+margin:auto this makes the div evenly b/w to left and right(kind of center) but note,this only works to box level elements 
+
+margin: 23px auto; 
+=>here, 23px is top and bottom for the margin and auto is left and right
+_____________________________________________________________________________________________________
+em:
+inherit from parent and computes
+by default font size is 16px
+if we mention 1em in child then ,child font size is 16px only
+if we mention 2em then it becomes 32 ie.. 2*inherited value
+
+so if parent is 10px 
+and for child it is 3em then fontsize for child becomes 30px
+This is em
+_____________________________________________________________________________________________________
+rem:
+inherit from root and computes
+ie..if root is 12px
+if we mention 2rem then font size becomes 24px
+
